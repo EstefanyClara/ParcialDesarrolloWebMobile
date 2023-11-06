@@ -10,15 +10,15 @@ import { HeaderComponent } from './header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-   
     JugadorComponent,
-        HeaderComponent
+    HeaderComponent 
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule, 
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
